@@ -5,8 +5,8 @@
  * @invite SsTkJAP3SE
  * @author Lonk#6942
  * @authorId 557388558017495046
- * @authorLink https://github.com/Lonk12/
- * @source https://github.com/Lonk12/BetterDiscordPlugins/blob/main/MemeSounds/MemeSounds.plugin.js
+ * @authorLink https://github.com/Altudity/
+ * @source https://github.com/Altudity/plugin-sounds/blob/main/MemeSounds.plugin.js
  * @updateUrl 
  */
 
@@ -32,10 +32,10 @@ module.exports = (() => {
 			/* Constants */
 			const {DiscordModules: {Dispatcher, SelectedChannelStore}} = Api;
 			const sounds = [
-				{re: /no?ice/gmi, file: "noice.mp3", duration: 600},
-				{re: /bazinga/gmi, file: "bazinga.mp3", duration: 550},
-				{re: /oof/gmi, file: "oof.mp3", duration: 250},
-				{re: /bruh/gmi, file: "bruh.mp3", duration: 470},
+				{re: /oh/gmi, file: "boowomp.mp3", duration: 600},
+				{re: /hi/gmi, file: "bass.wav", duration: 550},
+				{re: /oof/gmi, file: "uuhhh.wav", duration: 250},
+				{re: /bad/gmi, file: "badtothebone.mp3", duration: 470},
 				{re: /\uD83D\uDDFF/gmi, file: "vineboom.mp3", duration: 300}
 				,{re: /\uD83E\uDD28/gmi, file: "vineboom.mp3", duration: 300}
 				,{re: /\uD83D\uDC80/gmi, file: "vineboom.mp3", duration: 300}
